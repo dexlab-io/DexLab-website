@@ -1,6 +1,6 @@
 # Dexwallet Website
 
-Dexwallet Website, bundled with awesome GatsbyJs v2.
+DexLab Website, bundled with awesome GatsbyJs v2.
 
 ## Stack
 
