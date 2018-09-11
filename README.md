@@ -1,4 +1,4 @@
-# Dexwallet Website
+# DexLab Website
 
 DexLab Website, bundled with awesome GatsbyJs v2.
 
