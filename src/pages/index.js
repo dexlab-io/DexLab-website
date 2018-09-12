@@ -3,9 +3,8 @@ import React from 'react';
 import config from '../utils/config';
 import Seo from '../components/Seo';
 import Layout from '../components/Layout';
-
 import HomeHero from '../components/HomeHero';
-import Features from '../components/Features';
+import Vision from '../components/Vision';
 import Partners from '../components/Partners';
 
 export default class IndexPage extends React.Component {
@@ -19,8 +18,8 @@ export default class IndexPage extends React.Component {
           image={config.image}
         />
         <HomeHero />
+        <Vision />
         <Partners />
-        <Features />
       </Layout>
     );
   }

@@ -4,9 +4,10 @@ import styled from 'styled-components';
 import theme from '../utils/theme';
 
 import PartnersMobile from './PartnersMobile';
-import lang from '../utils/lang';
 
 const Container = styled.section`
+  padding-top: 6rem;
+  padding-bottom: 5rem;
   img {
     max-height: 3.5rem;
   }
@@ -17,14 +18,6 @@ const Container = styled.section`
   }
 `;
 
-const TitleStyled = styled.div`
-  margin-bottom: 4rem !important;
-  font-weight: ${theme.fontMedium};
-  @media only screen (max-width: 600px) {
-    margin-bottom: 3rem !important;
-  }
-`;
-
 const Imagestyled = styled.img`
   max-height: 5rem !important;
 `;
@@ -32,9 +25,6 @@ const Imagestyled = styled.img`
 const Partners = () => (
   <Container className="section">
     <div className="container has-text-centered">
-      <TitleStyled className="title has-text-light-grey is-size-6">
-        {lang.partnersTitle}
-      </TitleStyled>
       <PartnersMobile />
       <div className="is-hidden-mobile">
         <div className="columns">

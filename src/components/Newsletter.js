@@ -20,9 +20,6 @@ const Container = styled.section`
   .columns {
     margin-left: 0rem;
     margin-right: 0rem;
-    @media screen and (min-width: 768px) and (max-width: 1024px) {
-      padding: 0rem 12rem;
-    }
   }
 `;
 
@@ -60,7 +57,7 @@ const SocialContainer = styled.nav`
 `;
 
 const Newsletter = () => (
-  <Container className="section">
+  <Container className="section" id="newsletter">
     <PlaneImageStyled
       className=""
       src="/images/paperplane@2x.png"
