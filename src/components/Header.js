@@ -9,7 +9,7 @@ const Wrapper = styled.nav`
   background-color: #78b4e5;
   transition: 0.5s;
   @media only screen and (max-width: 600px) {
-    padding: ${props => (props.bg === 'white' ? '0rem 1rem' : '0rem')};
+    padding: 0rem 1rem;
   }
   .navbar-burger {
     height: 4.25rem;
