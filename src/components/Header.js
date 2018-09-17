@@ -177,9 +177,11 @@ class Header extends React.Component {
               <div className="navbar-item">
                 <LinkStyled href="https://dexwallet.io">DexWallet</LinkStyled>
               </div>
+              {/*
               <div className="navbar-item">
                 <LinkStyled href="#">Lightpaper</LinkStyled>
               </div>
+              */}
               <div className="navbar-item">
                 <LinkStyled href="https://medium.com/dexlab-io">
                   Blog
