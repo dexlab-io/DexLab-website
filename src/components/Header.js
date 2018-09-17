@@ -154,13 +154,15 @@ class Header extends React.Component {
                 <a href="https://dexwallet.io">
                   <li>DexWallet</li>
                 </a>
+                {/*
                 <a href="#">
                   <li>Lightpaper</li>
                 </a>
+                */}
                 <a href="https://medium.com/dexlab-io">
                   <li>Blog</li>
                 </a>
-                <a href="mailto:dev@dexlab.io">
+                <a href="mailto:founders@dexlab.io">
                   <li> Contact Us</li>
                 </a>
               </ul>
