@@ -1,9 +1,9 @@
 module.exports = {
   DEBUG: process.env.NODE_ENV === 'development',
-  siteName: 'Dexex - Get Eth Wallet Now',
+  siteName: 'Dexlab - The ultimate one-stop fintech hub for everyone.',
   logo: '/images/dexWallet_Icon@2x',
   author: 'Parminder Klair',
-  description: 'Dexex - Get Eth Wallet Now',
+  description: 'Discover a revolutionary ecosystem of decentralized tools and services with people at its core.',
   siteUrl: 'https://www.dexlab.io/',
   image: 'https://www.dexlab.io/images/preview.png',
   twitter: '@dexlab_io',
