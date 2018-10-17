@@ -151,19 +151,14 @@ class Header extends React.Component {
                 <Link to="/">
                   <li>Home</li>
                 </Link>
-                <a href="https://dexwallet.io">
-                  <li>DexWallet</li>
-                </a>
-                {/*
-                <a href="#">
-                  <li>Lightpaper</li>
-                </a>
-                */}
                 <a href="https://medium.com/dexlab-io">
                   <li>Blog</li>
                 </a>
                 <a href="mailto:founders@dexlab.io">
                   <li> Contact Us</li>
+                </a>
+                <a href="https://dexwallet.io/whitelabel">
+                  <li>Whitelabel</li>
                 </a>
               </ul>
             </aside>
@@ -175,14 +170,6 @@ class Header extends React.Component {
                 <LinkStyledTwo href="/">Home</LinkStyledTwo>
               </div>
               <div className="navbar-item">
-                <LinkStyled href="https://dexwallet.io">DexWallet</LinkStyled>
-              </div>
-              {/*
-              <div className="navbar-item">
-                <LinkStyled href="#">Lightpaper</LinkStyled>
-              </div>
-              */}
-              <div className="navbar-item">
                 <LinkStyled href="https://medium.com/dexlab-io">
                   Blog
                 </LinkStyled>
@@ -190,14 +177,19 @@ class Header extends React.Component {
               <div className="navbar-item">
                 <LinkStyled href="mailto:dev@dexlab.io">Contact Us</LinkStyled>
               </div>
+              <div className="navbar-item">
+                <LinkStyled href="https://dexwallet.io/whitelabel">
+                  Whitelabel
+                </LinkStyled>
+              </div>
               <div className="navbar-item header-button">
                 <ButtonWrapper
                   className="button is-info is-medium"
                   type="submit"
                   target="_parent"
-                  href="#newsletter"
+                  href="https://www.dexwallet.io/"
                 >
-                  <span className="is-size-6">NEWSLETTER</span>
+                  <span className="is-size-6">DEXWALLET</span>
                 </ButtonWrapper>
               </div>
             </div>
