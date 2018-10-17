@@ -130,12 +130,11 @@ const WhitelabelHero = ({ isHome }) => (
                 ready-to-use solution that will give a kick to <br />
                 your crypto-project.
               </h2>
-              <button
-                className="getintouch"
-                onClick="window.location.href='/#'"
-              >
-                {isHome ? 'GET STARTED' : 'GET IN TOUCH NOW'}
-              </button>
+              <a href="mailto:founders@dexlab.io">
+                <button className="getintouch" type="button">
+                  GET IN TOUCH NOW
+                </button>
+              </a>
             </span>
           </div>
         </div>
