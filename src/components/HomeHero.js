@@ -17,6 +17,9 @@ const Container = styled.section`
   h1 {
     font-size: 2.4rem;
   }
+  .columns {
+    margin-top: -4.5%;
+  }
 `;
 
 const Wrapper = styled.div`

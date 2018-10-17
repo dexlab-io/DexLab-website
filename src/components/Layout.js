@@ -18,7 +18,6 @@ const IndexLayout = ({ children }) => (
 
     <Header />
     <div>{children}</div>
-    <Newsletter />
     <Footer />
   </div>
 );

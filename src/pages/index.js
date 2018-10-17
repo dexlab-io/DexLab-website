@@ -6,6 +6,8 @@ import Layout from '../components/Layout';
 import HomeHero from '../components/HomeHero';
 import Vision from '../components/Vision';
 import Partners from '../components/Partners';
+import Newsletter from '../components/Newsletter';
+import WhitelabelHero from '../components/WhitelabelHero';
 
 export default class IndexPage extends React.Component {
   render() {
@@ -20,6 +22,8 @@ export default class IndexPage extends React.Component {
         <HomeHero />
         <Vision />
         <Partners />
+        <Newsletter />
+        <WhitelabelHero isHome />
       </Layout>
     );
   }
