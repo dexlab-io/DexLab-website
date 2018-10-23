@@ -124,10 +124,15 @@ const WhitelabelHero = ({ isHome }) => (
               <h1 className="whitelabelTitle has-text-centered-mobile">
                 Whitelabel Wallet solution for your Company.
               </h1>
-              <h2 className="whitelabelSub">
+              <h2 className="whitelabelSub is-hidden-mobile">
                 All the DexWallet functionalities and much more in a <br />
                 ready-to-use solution that will give a kick to <br />
                 your crypto-project.
+              </h2>
+              <h2 className="whitelabelSub is-hidden-tablet">
+                All the DexWallet functionalities and much more in a
+                ready-to-use solution that will give a kick to your
+                crypto-project.
               </h2>
               <a href="mailto:founders@dexlab.io">
                 <button className="getintouch" type="button">
