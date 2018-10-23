@@ -55,6 +55,8 @@ const Container = styled.section`
     line-height: 2.7rem;
     @media (max-width: 600px) {
       width: 100%;
+      line-height: 3.3rem;
+      font-size: 2.5rem;
     }
   }
 
@@ -121,7 +123,7 @@ const WhitelabelHero = ({ isHome }) => (
           </div>
           <div className="column columnText">
             <span className="contentText">
-              <h1 className="whitelabelTitle has-text-centered-mobile">
+              <h1 className="whitelabelTitle">
                 Whitelabel Wallet solution for your Company.
               </h1>
               <h2 className="whitelabelSub is-hidden-mobile">
