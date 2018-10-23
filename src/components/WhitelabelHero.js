@@ -63,8 +63,7 @@ const Container = styled.section`
     font-size: 1.3rem;
     font-weight: ${theme.fontLite};
     color: ${theme.textColorBlack};
-    margin-block-end: 0.83rem;
-    margin-block-start: 0.83rem;
+    margin: 1rem 0;
   }
 
   button.getintouch {
