@@ -1,11 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import theme from '../utils/theme';
-
 import PartnersMobile from './PartnersMobile';
 
 const Container = styled.section`
+.column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
   padding-top: 6rem;
   padding-bottom: 5rem;
   img {
@@ -13,7 +16,7 @@ const Container = styled.section`
   }
   .container {
       width: 80%;
-     
+
     }
   }
 `;
