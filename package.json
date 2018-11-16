@@ -1,17 +1,17 @@
 {
-  "name": "dexwallet-website",
-  "description": "Dexwallet Website, bundled with awesome GatsbyJs v2.",
+  "name": "dexlab-website",
+  "description": "Dexlab Website, bundled with awesome GatsbyJs v2.",
   "version": "2.0.1",
   "author": "Parminder Klair",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dexlab-io/DexWallet-website.git"
+    "url": "git+https://github.com/dexlab-io/DexLab-website.git"
   },
   "bugs": {
-    "url": "https://github.com/dexlab-io/DexWallet-website/issues"
+    "url": "https://github.com/dexlab-io/DexLab-website/issues"
   },
-  "homepage": "https://github.com/dexlab-io/DexWallet-website#readme",
+  "homepage": "https://github.com/dexlab-io/DexLab-website#readme",
   "scripts": {
     "start": "npm run develop",
     "develop": "gatsby develop",
