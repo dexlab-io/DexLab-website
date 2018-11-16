@@ -29,6 +29,8 @@ export default class HTML extends React.Component {
             defer
             src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"
           />
+          <script src="https://medium-widget.pixelpoint.io/widget.js" />
+
           {/* Add custom css or scripts here */}
 
           {this.props.headComponents}

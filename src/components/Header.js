@@ -167,7 +167,7 @@ class Header extends React.Component {
           <div className="navbar-menu">
             <div className="navbar-end  is-size-6">
               <div className="navbar-item">
-                <LinkStyledTwo href="/">Home</LinkStyledTwo>
+                <LinkStyledTwo to="/">Home</LinkStyledTwo>
               </div>
               <div className="navbar-item">
                 <LinkStyled href="https://medium.com/dexlab-io">
