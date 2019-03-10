@@ -69,6 +69,11 @@ const Newsletter = () => (
         <br />
         <div className="column">
           <SocialContainer className="level is-mobile">
+          <p className="level-item has-text-centered">
+              <a className="link is-info" href=" https://www.dexlab.io/discord">
+                <img src="/images/social/discord2.png" alt="discord" />
+              </a>
+            </p>
             <div className="level-item has-text-centered">
               <a className="link is-info" href="https://t.me/joindexlab">
                 <img src="/images/social/icon_telegram.svg" alt="telegram" />
