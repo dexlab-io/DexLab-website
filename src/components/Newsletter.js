@@ -54,6 +54,10 @@ const SocialContainer = styled.nav`
   @media screen and (min-width: 768px) and (max-width: 1024px) {
     padding-bottom: 2rem;
   }
+  .discord {
+    height: 22px;
+    width: 26px;
+  }
 `;
 
 const Newsletter = () => (
@@ -69,9 +73,12 @@ const Newsletter = () => (
         <br />
         <div className="column">
           <SocialContainer className="level is-mobile">
-          <p className="level-item has-text-centered">
-              <a className="link is-info" href=" https://www.dexlab.io/discord">
-                <img src="/images/social/discord2.png" alt="discord" />
+            <p className="level-item has-text-centered">
+              <a
+                className="link discord is-info"
+                href=" https://www.dexlab.io/discord"
+              >
+                <img src="/images/social/discord.png" alt="discord" />
               </a>
             </p>
             <div className="level-item has-text-centered">
