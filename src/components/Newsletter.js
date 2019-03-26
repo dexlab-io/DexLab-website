@@ -78,7 +78,7 @@ const Newsletter = () => (
                 className="link discord is-info"
                 href=" https://www.dexlab.io/discord"
               >
-                <img src="/images/social/discord.png" alt="discord" />
+                <img src="/images/social/discord.svg" alt="discord" />
               </a>
             </p>
             <div className="level-item has-text-centered">
